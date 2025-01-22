@@ -1,9 +1,13 @@
 package sistemaPuntuacion;
 
+import java.io.PrintStream;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 public class Demo {
-    public static void main(String[] args) {
+    public static void main(String[] args) {        
+        
         SistemaPuntuacion sistema = new SistemaPuntuacion();
         Scanner scanner = new Scanner(System.in);
 
